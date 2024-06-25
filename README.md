@@ -35,6 +35,9 @@ To reverse the order of nodes use the instance method `reverse` to reverse the l
 3
 5
 9
+>>> len(ll)  # The length of the list can be found in the usual way
+4
+>>>
 >>> ll[1].value   # Nodes can be accessed like in a normal Python list
 1
 >>> del ll[1]  # Node deletion also works like in a normal list
