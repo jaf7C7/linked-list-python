@@ -54,3 +54,17 @@ class TestDelItem(TestCase):
         ll = LinkedList()
         with self.assertRaises(IndexError):
             del ll[3]
+
+
+class TestReverse(TestCase):
+
+    def test_is_implemented(self):
+        ll = LinkedList()
+        ll.insert(3)
+        ll.insert(5)
+        ll.insert(9)
+        ll.reverse()
+        values = []
+        for node in ll:
+            values.append(node.value)
+        self.assertEqual([9, 5, 3], values)
