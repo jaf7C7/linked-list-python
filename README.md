@@ -28,7 +28,7 @@ To reverse the order of nodes use the instance method `reverse` to reverse the l
 >>>
 >>> ll.insert(5)
 >>> ll.insert(9)
->>> for node in ll:
+>>> for node in ll:  # Iteration works as expected
 ...     print(node.value)
 ...
 1
