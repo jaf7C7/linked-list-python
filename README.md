@@ -1,6 +1,6 @@
 # Singly Linked List
 
-This is a singly linked list implemented in Python class `LinkedList`.
+This is a singly linked list implemented in a Python class `LinkedList`.
 
 Nodes are added by the `LinkedList` class's `insert` method.
 
