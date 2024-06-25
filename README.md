@@ -1,4 +1,4 @@
-# Single Linked List
+# Singly Linked List
 
 This is a singly linked list implemented in Python class `LinkedList`.
 
